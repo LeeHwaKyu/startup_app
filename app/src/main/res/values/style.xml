@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BorderTextViewStyleTime">
+        <item name="android:textColor">#FFFFFF</item> <!-- 텍스트 색상을 흰색으로 설정 -->
+        <item name="android:shadowColor">#999999</item> <!-- 그림자 색상 설정 -->
+        <item name="android:shadowDx">8</item> <!-- 그림자 X 방향 거리 설정 -->
+        <item name="android:shadowDy">8</item> <!-- 그림자 Y 방향 거리 설정 -->
+        <item name="android:shadowRadius">4</item> <!-- 그림자 반경 설정 -->
+    </style>
+
+    <style name="BorderTextViewStyleDay">
+        <item name="android:textColor">#FFFFFF</item> <!-- 텍스트 색상을 흰색으로 설정 -->
+        <item name="android:shadowColor">#999999</item> <!-- 그림자 색상 설정 -->
+        <item name="android:shadowDx">4</item> <!-- 그림자 X 방향 거리 설정 -->
+        <item name="android:shadowDy">4</item> <!-- 그림자 Y 방향 거리 설정 -->
+        <item name="android:shadowRadius">3</item> <!-- 그림자 반경 설정 -->
+    </style>
+
+    <style name="BorderTextViewStyleButton">
+        <item name="android:textColor">#999999</item> <!-- 텍스트 색상을 흰색으로 설정 -->
+        <item name="android:background">@drawable/text_border</item> <!-- 테두리 설정 -->
+        <item name="android:elevation">4dp</item> <!-- View의 그림자 설정 -->
+    </style>
+
+    <style name="MyButtonStyle1">
+        <item name="android:background">@drawable/custom_button_background</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <!-- 다른 버튼 속성을 추가할 수 있습니다. -->
+    </style>
+
+    <style name="MyButtonStyle2">
+        <item name="android:background">@drawable/custom_button_background2</item>
+        <item name="android:textColor">#C55A11</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <!-- 다른 버튼 속성을 추가할 수 있습니다. -->
+    </style>
+
+</resources>

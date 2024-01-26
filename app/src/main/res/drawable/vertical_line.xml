@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFF" /> <!-- 세로선의 색상 설정 -->
+    <size android:width="2dp"  /> <!-- 세로선의 너비와 높이 설정 -->
+</shape>
